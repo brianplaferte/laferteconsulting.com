@@ -1,0 +1,99 @@
+
+body {
+	background-color:#FFE7A1;
+	color: #528CB2;
+	font-family: 'Averia Sans Libre', cursive;
+}
+
+.contentDiv {
+	float: inherit;
+	display:none;
+	visibility:hidden;
+	margin-top: auto;
+}
+
+.copyRight {
+	text-align:center;
+}
+
+.navMenu {
+	text-align: right;
+}
+
+.menuItem {
+	text-align: right;
+	font-family: 'Metamorphous', cursive;	
+	display: block;
+	padding: 1px;
+	margin: 1px;
+}
+
+.logoArea {
+	color: red;
+	text-align: right;
+	font-family: 'Metamorphous', cursive;	
+	font-size:24px;
+}
+
+#navMenu a:link  {
+	text-decoration: none;
+	color: #528CB2;
+}
+
+#navMenu a:visited {
+	text-decoration: none;
+	color: #528CB2;
+}
+
+#navMenu a:active {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+#contentContact a:link  {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+#contentContact a:visited {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+#contentContact a:active {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#container {
+	width: 100%;
+	margin: 10px auto;
+}
+
+#leftSide {
+	width: 300px;
+	float: left;
+	margin-right: 5px;
+}
+
+#rightSide {
+	width:600px;
+	padding-top: 20px;
+	margin-left: 40px;
+	margin-left: 330px;
+}
+
+#footer {
+	width:80%;
+	position:fixed;
+	bottom:2px;
+	clear: both;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: .8em;
+}

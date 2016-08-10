@@ -1,0 +1,102 @@
+
+body {
+	background-color:#FFE7A1;
+	color: #528CB2;
+	font-family: 'Averia Sans Libre', cursive;
+	font-size:11px;
+}
+
+.contentDiv {
+	float: inherit;
+	display:none;
+	visibility:hidden;
+	margin-top: auto;
+}
+
+.copyRight {
+	text-align:center;
+}
+
+.navMenu {
+	text-align: right;
+}
+
+.menuItem {
+	text-align: left;
+	font-family: 'Metamorphous', cursive;	
+	display: block;
+	padding: 1px;
+	margin-top: 10px;
+	font-size:10px;
+}
+
+.logoArea {
+	color: red;
+	text-align: left;
+	font-family: 'Metamorphous', cursive;	
+	font-size:16px;
+}
+
+#navMenu a:link  {
+	text-decoration: none;
+	color: #528CB2;
+}
+
+#navMenu a:visited {
+	text-decoration: none;
+	color: #528CB2;
+}
+
+#navMenu a:active {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+#contentContact a:link  {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+#contentContact a:visited {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+#contentContact a:active {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: 1px;
+	padding-left: 3px;
+}
+
+#container {
+	width: 90%;
+	margin: 10px auto;
+}
+
+#leftSide {
+	width: 90px;
+	float: left;
+}
+
+#rightSide {
+	padding-top: 5px;
+	margin-left: 110px;
+}
+
+#footer {
+	visibility:hidden;
+	display:none;
+	width:80%;
+	position:fixed;
+	bottom:2px;
+	clear: both;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: .8em;
+}
