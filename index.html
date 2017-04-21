@@ -22,28 +22,21 @@
   <link href='http://fonts.googleapis.com/css?family=Metamorphous' rel='stylesheet' type='text/css'>
 
   <script language="javascript" src="includes/jquery-1.7.1.min.js" type="text/javascript"></script>
-  <script language="javascript" src="includes/tweet/jquery.tweet.js" type="text/javascript"></script>
+  <!-- <script language="javascript" src="includes/tweet/jquery.tweet.js" type="text/javascript"></script> //-->
 
 	<link rel="stylesheet" media="all and (max-device-width: 480px)" href="includes/iPhone.css">
 	<link rel="stylesheet" media="all and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" href="includes/mainCSS.css">
 	<link rel="stylesheet" media="all and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" href="includes/mainCSS.css">
 	<link rel="stylesheet" media="all and (min-device-width: 1025px)" href="includes/mainCSS.css">
-  <link href="includes/tweet/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
+<!--   <link href="includes/tweet/jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/> //-->
 
 
   <script type='text/javascript'>
     jQuery(function($){
     	showContent("#contentMain",'#navHome');
 
-        $(".tweet").tweet({
-            username: ["asfarasmancango"],
-            join_text: "auto",
-            avatar_size: 32,
-            count: 10,
-            refresh_interval: 60,
-            // template: "{text}",
-            loading_text: "loading tweets..."
-        });
+
+        // $(".tweet").tweet({ username: ["asfarasmancango"], join_text: "auto", avatar_size: 32, count: 10,refresh_interval: 60, template: "{text}",   loading_text: "loading tweets..." });
     });
 
     function showContent($divID,$menuID) {
@@ -75,7 +68,7 @@
 	    		<li><a href="#" id="navHome" class="menuItem" onClick="showContent('#contentMain','#navHome');">Home</a></li>
       			<li><a href="#" id="navCons" class="menuItem" onClick="showContent('#contentConsulting','#navCons');">Consulting</a></li>
       			<li><a href="#" id="navCont" class="menuItem" onClick="showContent('#contentContact','#navCont');">Contact</a></li>
-      			<li><a href="#" id="navTwit" class="menuItem" onClick="showContent('#contentTwitter','#navTwit');">Twitter</a></li>
+      			<!-- <li><a href="#" id="navTwit" class="menuItem" onClick="showContent('#contentTwitter','#navTwit');">Twitter</a></li> //-->
 	    	</ul>
  		</div>
 	</div>
@@ -101,16 +94,16 @@
 				</ul>
 			</p>
 		</div>
-
+<!--
 		<div id="contentTwitter" class="contentDiv">
 			<p>Follow Brian at @asfarasmancango on Twitter:</p>
     		<div id="tweetDeck" style="overflow:auto;height=300px; width=300px;" class="tweet"></div>
 		</div>
-
+//-->
 	</div>
 
 	<div id="footer">
-     	<p id="copyRight">&copy; Copyright Progressive Systems Technology, Inc. 2016</p>
+     	<p id="copyRight">&copy; Copyright Progressive Systems Technology, Inc. 2017</p>
 	</div>
 </div>
 </body>
